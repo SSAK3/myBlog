@@ -1,0 +1,36 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^2.2.8",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "fs": "0.0.1-security",
+    "jsdom": "^16.5.3",
+    "marked": "^2.0.3",
+    "method-override": "^3.0.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "slugify": "^1.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\t"
+  },
+  "description": ""
+}
